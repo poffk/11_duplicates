@@ -12,7 +12,7 @@ def get_name_size_of_all_files(path_to_folder):
 
 
 if __name__ == '__main__':
-    path_start = input('Введите папку для поиска дубликатов: ')
+    path_start = input('Введите папку для поиска файлов-дубликатов: ')
     list_of_files = get_name_size_of_all_files(path_start)
     counter_files = Counter(list_of_files)
     for file in counter_files:
