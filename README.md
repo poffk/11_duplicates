@@ -2,21 +2,23 @@
 
 ## Данный скрипт:
 
-Ищет дубликаты файлов в заданной папке и ее подпапках и выходит названия таких файлов.
+•Ищет дубликаты файлов в заданной папке и ее подпапках. Дубликаты - это файлы с одинаковым именем и размером.
+
+•Выводит названия и путь до повторяющихся файлов.
 
 ## Примеры вывода программы:
 
-	Файл Word.docx повторяется 2 раз(а), путь: D:\Devman\11_duplicates\test\Word.docx
-	Файл Word.docx повторяется 2 раз(а), путь: D:\Devman\11_duplicates\test\test[1]\Word.docx
-	Файл txt[1].txt повторяется 2 раз(а), путь: D:\Devman\11_duplicates\test\txt[1].txt
-	Файл txt[1].txt повторяется 2 раз(а), путь: D:\Devman\11_duplicates\test\test[1]\txt[1].txt
+	Файл Word.docx повторяется, путь: D:\Devman\11_duplicates\test\Word.docx
+	Файл Word.docx повторяется, путь: D:\Devman\11_duplicates\test\test[1]\Word.docx
+	Файл txt[1].txt повторяется, путь: D:\Devman\11_duplicates\test\txt[1].txt
+	Файл txt[1].txt повторяется, путь: D:\Devman\11_duplicates\test\test[1]\txt[1].txt
 
 
 ## Запуск:
 
 Введите в терминале:
 
-    python3.5 duplicates.py
+    python3.5 duplicates.py [путь до директории]
 
 ## Зависимости:
 
